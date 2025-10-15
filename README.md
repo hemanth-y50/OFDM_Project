@@ -101,7 +101,36 @@ Includes:
 - Constellation recovery under mobility
 - BER vs Doppler sweep (semilog plot)
 
+## 📅 Day 4: MIMO OFDM Simulation — Equalization & Diversity
 
+This module simulates a 2×2 MIMO OFDM system with QPSK modulation over Rayleigh fading channels. It benchmarks linear equalization techniques and space-time coding schemes using BER and constellation analysis.
+
+### 🔧 Modules Used
+- `mimo_channel.py`: Rayleigh channel generation
+- `mimo_modulation.py`: QPSK + OFDM modulation
+- `mimo_transmission.py`: Channel + noise simulation
+- `mimo_equalization.py`: ZF and MMSE equalizers
+- `alamouti_encoder.py`: Alamouti STBC encoder/decoder
+- `ber_analysis.py`: BER simulation for equalization and diversity
+
+### 📊 Results
+
+#### 1. BER vs SNR: ZF vs MMSE Equalization
+Compares Zero Forcing and MMSE equalizers under identical channel conditions.
+
+
+#### 2. Recovered QPSK Constellation at 10 dB SNR
+Visualizes symbol recovery using ZF equalization.
+
+
+#### 3. BER vs SNR: Alamouti STBC vs Spatial Multiplexing
+Highlights diversity gain vs throughput tradeoff.
+
+
+### 🎓 Author
+**Hemanth Kumar Yenuganti**  
+B.Tech ECE, RGUKT Nuzvid  
+GitHub: [hemanth-y50](https://github.com/hemanth-y50)
 
 
 
