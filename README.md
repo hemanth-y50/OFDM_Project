@@ -90,7 +90,16 @@ All plots are stored in plots_day_2/ and include:
 - BER performance analysis
 
 
+## 📡 Day 3: Doppler-Aware OFDM Receiver
 
+Folder: `day3_doppler_mobility/`
+
+Includes:
+- Rayleigh fading simulation for multiple Doppler frequencies
+- Doppler spectrum analysis via FFT
+- LMS-based channel tracking and MSE plots
+- Constellation recovery under mobility
+- BER vs Doppler sweep (semilog plot)
 
 
 
