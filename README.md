@@ -104,7 +104,8 @@ Folder: `5_adaptive_coding/`
 
 - Python (NumPy, Matplotlib)
 - Jupyter Notebook
-- MATLAB, C, and C++ (planned)
+- git for version control
+- MATLAB, C, and C++ (planned to be added soon)
 
 ---
 
